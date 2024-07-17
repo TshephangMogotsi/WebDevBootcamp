@@ -1,0 +1,29 @@
+/* Write your code here: */
+
+/* multiple selection */
+h1, h2{
+    color: blueviolet;
+}
+
+/* direct child selection */
+.box > p {
+    color: firebrick;
+}
+
+/* descendant selection */
+.box li{
+    color: blue;
+}
+
+/* chaining selectors */
+/* chaining = apply all where selectors are true */
+/* always start with the element */
+
+li.done{
+    color: seagreen;
+}
+
+/* combining selectors */
+ul p.done {
+    font-size: 0.5rem;
+}
